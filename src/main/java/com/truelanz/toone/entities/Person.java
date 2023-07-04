@@ -20,7 +20,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Person {
 
-     @Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
